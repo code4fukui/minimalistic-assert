@@ -1,4 +1,4 @@
-module.exports = assert;
+export default assert;
 
 function assert(val, msg) {
   if (!val)
